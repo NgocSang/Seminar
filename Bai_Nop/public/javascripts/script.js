@@ -47,13 +47,13 @@ class Stopwatch {
         this.restarted = true;
         if (!this.time){
           this.time = performance.now();
-          window.alert("Vo time");
+          
         }
 
         if (!this.running) {
             this.running = true;
             requestAnimationFrame(this.step.bind(this));
-            window.alert("Vo");
+            
         }
 
 
